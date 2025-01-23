@@ -1,0 +1,4 @@
+package com.nextroom.housing.app.repository;
+
+public interface EnquiryRepository {
+}

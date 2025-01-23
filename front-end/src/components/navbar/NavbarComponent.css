@@ -1,0 +1,37 @@
+.maroon-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #800000;
+}
+
+.maroon-navbar button {
+  margin-right: 10px;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #800000;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.maroon-navbar button:hover {
+  background-color: #600000;
+  border-color: #600000;
+}
+  
+.ml-auto {
+    margin-left: auto;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #800000 !important;
+  color: white !important;
+}
+
+.navbar .dropdown-item:active, .navbar .dropdown-item:focus {
+  background-color: #800000 !important;
+  color: white !important;
+}

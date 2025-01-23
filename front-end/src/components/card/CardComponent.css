@@ -1,0 +1,50 @@
+/* Center the content and adjust the margin for the page */
+.listing-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;  /* Add some padding to the top */
+}
+
+/* Use the existing listing-card styles */
+.listing-card {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.listing-card .card-body {
+  padding: 15px;
+}
+
+.listing-card .card-title {
+  font-size: 1.2em;
+}
+
+.listing-card .card-text {
+  font-size: 1em;
+  color: #555;
+}
+
+.listing-card button {
+  background-color: #933232;
+  border-color: #933232;
+}
+
+.listing-card button:hover {
+  background-color: #800000;
+  border-color: #800000;
+}
+
+/* Ensure that the cards are displayed one below the other and centered */
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Make the cards responsive */
+@media (max-width: 768px) {
+  .listing-card {
+    margin: 10px 0; /* Adjust margin for smaller screens */
+  }
+}

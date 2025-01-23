@@ -1,0 +1,64 @@
+.listing-detail-container {
+  margin-top: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listing-detail-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.listing-detail-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.listing-detail-container strong {
+  font-weight: bold;
+}
+
+.btn-back, .btn-submit, .btn-inquiry {
+  padding: 10px 20px;
+  background-color: #933232;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn-back:hover, .btn-submit:hover, .btn-inquiry:hover {
+  background-color: #800000;
+}
+
+.inquiry-button-container {
+  position: fixed;
+  top: 150px;
+  right: 20px;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .btn-back, .btn-submit, .btn-inquiry {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .inquiry-button-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .btn-inquiry {
+    width: 80%;
+  }
+}

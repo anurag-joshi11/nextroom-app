@@ -1,0 +1,16 @@
+package com.nextroom.housing.app.dto;
+
+import jakarta.persistence.*;
+import lombok.Data;
+
+import java.time.LocalDateTime;
+
+@Data
+public class UserRequestDTO {
+    private Long userId;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+    private String role;
+}

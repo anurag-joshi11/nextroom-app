@@ -1,0 +1,36 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .auth-form input {
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-form button {
+    padding: 10px;
+    background-color: #933232;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .auth-form button:hover {
+    background-color: #800000;
+  }
+  
+  .role-selection {
+    display: flex;
+    gap: 155px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+  
