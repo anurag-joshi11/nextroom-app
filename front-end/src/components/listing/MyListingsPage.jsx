@@ -35,10 +35,6 @@ const MyListingsPage = () => {
 
   return (
     <Container className="listing-container" style={{ marginTop: "100px" }}>
-      <button className="btn-back" onClick={() => navigate(-1)}>
-        Back to Listings
-      </button>
-
       <h2 className="text-center">My Listings</h2>
       <Row className="justify-content-center">
         {listings.map((listing) => (
@@ -58,6 +54,11 @@ const MyListingsPage = () => {
           </Col>
         ))}
       </Row>
+      <div className="text-center mt-4">
+        <button className="btn-back" onClick={() => navigate(-1)}>
+          Back to Listings
+        </button>
+      </div>
     </Container>
   );
 };
